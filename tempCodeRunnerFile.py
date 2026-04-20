@@ -1,4 +1,6 @@
 import pandas as pd
-cal = {"day1": 420, "day2": 380, "day3": 390}
-Atifnew = pd.Series(cal)
+Atif = {"cal": [420, 3380, 390], "duration": [50, 40, 45]}
+Atifnew = pd.DataFrame(Atif)
 print(Atifnew)
+
+

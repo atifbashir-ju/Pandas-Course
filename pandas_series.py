@@ -20,3 +20,13 @@ import pandas as pd
 cal = {"day1": 420, "day2": 380, "day3": 390}
 Atifnew = pd.Series(cal)
 print(Atifnew)
+
+#data frame: data sets in pandas are usually multidimentional tables and they are called data frame series are counms and data frames is the whole table
+
+import pandas as pd
+Atif = {"cal": [420, 3380, 390], "duration": [50, 40, 45]}
+Atifnew = pd.DataFrame(Atif)
+print(Atifnew)
+
+
+
