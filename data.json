@@ -1,0 +1,90 @@
+{
+  "company": "TechNova",
+  "generated_on": "2026-04-20",
+  "employees": [
+    {
+      "id": 101,
+      "name": "Atif Bashir",
+      "age": 22,
+      "department": "Data Science",
+      "skills": ["Python", "Machine Learning", "Pandas", "NumPy"],
+      "salary": 75000,
+      "projects": [
+        {
+          "project_id": "DS001",
+          "title": "Customer Churn Prediction",
+          "status": "Completed"
+        },
+        {
+          "project_id": "DS002",
+          "title": "Sales Forecasting",
+          "status": "Ongoing"
+        }
+      ],
+      "address": {
+        "city": "Delhi",
+        "country": "India"
+      }
+    },
+    {
+      "id": 102,
+      "name": "Ali Khan",
+      "age": 24,
+      "department": "Software Engineering",
+      "skills": ["Java", "Spring Boot", "SQL"],
+      "salary": 68000,
+      "projects": [
+        {
+          "project_id": "SE001",
+          "title": "E-commerce Backend",
+          "status": "Completed"
+        }
+      ],
+      "address": {
+        "city": "Mumbai",
+        "country": "India"
+      }
+    },
+    {
+      "id": 103,
+      "name": "Sara Ahmed",
+      "age": 23,
+      "department": "AI Research",
+      "skills": ["Deep Learning", "TensorFlow", "NLP"],
+      "salary": 82000,
+      "projects": [
+        {
+          "project_id": "AI001",
+          "title": "Chatbot Development",
+          "status": "Ongoing"
+        },
+        {
+          "project_id": "AI002",
+          "title": "Image Classification",
+          "status": "Completed"
+        }
+      ],
+      "address": {
+        "city": "Bangalore",
+        "country": "India"
+      }
+    }
+  ],
+  "departments": [
+    {
+      "name": "Data Science",
+      "head": "Dr. Sharma",
+      "budget": 500000
+    },
+    {
+      "name": "Software Engineering",
+      "head": "Mr. Verma",
+      "budget": 400000
+    },
+    {
+      "name": "AI Research",
+      "head": "Dr. Iyer",
+      "budget": 600000
+    }
+  ]
+}

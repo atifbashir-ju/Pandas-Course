@@ -1,3 +1,10 @@
+#JSON: Big data sets are normally stored and extracted as json.
+
+import pandas as pd
+Atif = pd.read_json('data.json')
+print(Atif.to_string())
+
+#if your json code is not in a file but in a python dictionary.
 import pandas as pd
 data = {
   "company": "TechNova",
