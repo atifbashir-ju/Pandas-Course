@@ -1,17 +1,3 @@
 import pandas as pd
-data = {
-  "company": "TechNova",
-  "generated_on": "2026-04-20",
-  "employees": [
-    {
-      "id": 101,
-      "name": "Atif Bashir",
-      "age": 22,
-      "department": "Data Science",
-      "skills": ["Python", "Machine Learning", "Pandas", "NumPy"],
-      "salary": 75000
-    }
-  ]
-}
-Atifnew= pd.DataFrame(data)
-print(Atifnew)
+df = pd.read_csv('data.csv')
+print(df.info())
